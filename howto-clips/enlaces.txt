@@ -1,0 +1,20 @@
+Vídeos
+https://www.youtube.com/watch?v=GVPd7tjEgCE ( Práctica de SBC 1 - Presentacion Material Practica )
+https://www.youtube.com/watch?v=PS58XWoimJ0 ( Práctica de SBC 2 - Lenguaje Clips Hechos )
+https://www.youtube.com/watch?v=W8ex5nfJMMU ( Práctica de SBC 3 - Lenguaje Clips Reglas )
+https://www.youtube.com/watch?v=ZSqe0A-jIKI ( Práctica de SBC 4 - Lenguaje Clips Reglas Ejemplos )
+https://www.youtube.com/watch?v=ccz9BF40PgI ( Práctica de SBC 5 - Lenguaje Clips modulos )
+https://www.youtube.com/watch?v=ahcw-NDvCLA ( Práctica de SBC 6 - Lenguaje Clips sentencias funcionales )
+https://www.youtube.com/watch?v=vJNINILR5e8 ( Práctica de SBC 7 - Lenguaje Clips OOP )
+https://www.youtube.com/watch?v=YVA0cXej0H8 ( Práctica de SBC 8 - Lenguaje Clips OOP Ejemplos )
+https://www.youtube.com/watch?v=YIgtGhkBnow ( Práctica de SBC 9 - Uso de Clips, interfaz windows )
+https://www.youtube.com/watch?v=76hoHTAAGG0 ( Práctica de SBC 10 - Uso de Protégé 5 - parte 1 )
+https://www.youtube.com/watch?v=m8LddBPk3cQ ( Práctica de SBC 11 - Uso de Protégé 5 - parte 2 )
+
+Software
+  Material de CLIPS
+    https://www.clipsrules.net/
+
+  Material de Protégé
+    https://protege.stanford.edu/
+    https://webprotege.stanford.edu/
