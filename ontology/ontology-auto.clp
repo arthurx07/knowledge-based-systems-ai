@@ -2,7 +2,7 @@
 ;;; ontology-auto.clp
 ;;; Translated by owl2clips
 ;;; Translated to CLIPS from ontology ontology.rdf
-;;; :Date 15/05/2026 19:05:44
+;;; :Date 15/05/2026 19:10:22
 
 (defclass Ciudad
     (is-a USER)
@@ -22,7 +22,6 @@
         (create-accessor read-write))
     (slot perfil
         (type SYMBOL)
-        (allowed-symbols adulto infante joven senior) ; ¿añadir: ninguno?
         (create-accessor read-write))
 )
 

@@ -1,6 +1,6 @@
 # Para pasar a CLIPS
 ```
-owl2clips --input ontologia.owl --output ontologia.clp --format xml
+owl2clips --input ontology.owl --output ontology-auto.clp --format xml
 
 # Se prefiere instalar en el sistema
 pip install owl2else --user     # librería de python
@@ -18,3 +18,7 @@ Se puede usar owl2plot o el plug-in Graphviz de Protégé:
 ```
 owl2plot --input ontology.rdf --output ontology.svg --format xml
 ```
+
+# Otros
+"functional" activado quiere decir que esa propiedad está solo una vez para esa
+clase (es decir. un Usuario tiene una edad, no dos o más).
