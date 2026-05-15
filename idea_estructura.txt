@@ -1,0 +1,45 @@
+# Idea Estructura
+nombre-del-proyecto/
+├── ontology/              # Archivos de Protégé
+│   ├── mudanzas.owl       # Ontología principal (RDF/XML o Turtle)
+│   └── mudanzas.pprj      # Archivo de proyecto (si usas versiones antiguas)
+├── src/                   # Código CLIPS (.clp)
+│   ├── main.clp           # Carga los módulos y lanza el sistema (reset/run)
+│   ├── ontology.clp       # Clases exportadas desde Protégé (defclass/definstances)
+│   ├── templates.clp      # Moldes de hechos no ontológicos (deftemplate)
+│   ├── rules-abstract.clp # Paso 3: Reglas de Abstracción
+│   ├── rules-heuristic.clp# Paso 4: Asociación Heurística
+│   ├── rules-refine.clp   # Paso 5: Refinamiento de la solución
+│   └── utils.clp          # Funciones de entrada/salida y cálculos
+├── data/                  # Casos de prueba o instancias adicionales
+│   └── test-cases.clp
+├── docs/                  # Informe de la práctica y diagramas
+└── run-system.sh          # Script para Arch para lanzar CLIPS con todo cargado
+
+# Gitignore
+# --- Protégé & Ontology ---
+# Archivos temporales de guardado y logs de Java
+.protege/
+*.log
+*.pax
+*.lock
+# Si usas el formato antiguo de carpeta
+mudanzas.tmp/
+
+# --- CLIPS ---
+# CLIPS no genera binarios, pero si compilas el core manualmente:
+clips
+*.o
+*.a
+
+# --- IDEs y Editores ---
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# --- Arch Linux / System ---
+# Si usas un entorno virtual o scripts de compilación
+build/
+dist/
